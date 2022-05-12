@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class even_square
+{
+   public static void main(String ags[])
+   {
+       int num,square;
+       Scanner sc=new Scanner(System.in);
+       System.out.println("Enter any number");
+       num=sc.nextInt();
+       if(num%2==0)
+       {
+             square=num*num;
+             System.out.println("The square is" +square); 
+       }
+       
+   }  
+}
