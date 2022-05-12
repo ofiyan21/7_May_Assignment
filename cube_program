@@ -1,0 +1,19 @@
+import  java.util.Scanner;
+public class demo1
+{
+    public static void main(String args[])
+    {
+        int num,res;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter your number:");
+        num=sc.nextInt();
+        if(num%5==0)
+        {
+            res=num*num*num;
+            System.out.println("The Cube is="+res);
+        }
+
+
+    }
+}
+    
