@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class min_max {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        int i, min, max;
+        Scanner sc=new Scanner(System.in);
+         System.out.println("Enter min Number:");
+         min=sc.nextInt();
+         System.out.println("Enteer max Number:");
+         max=sc.nextInt();
+         for(i=max;i<=min;i++)
+         {
+             System.out.println(i);
+         }
+               
+    }
+    
+}
