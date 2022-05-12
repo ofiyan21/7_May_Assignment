@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class arm_number
+{
+    public static void main(String args[])
+    {
+        int num1,num2,r,s=0;
+          System.out.println("Enter Any Number");
+        Scanner sc=new Scanner(System.in);
+        num1=sc.nextInt();
+        
+        num2=num1;
+        do{
+           r=num1%10;  
+           s=s+r*r*r;
+           num1=num1/10;
+        }while(num1>0);
+        if(num2==s)
+        {
+            System.out.println("It is an armstrong number");
+        }
+        else{
+            System.out.println("It is  not an armstrong number");
+        }
+              
+   }
+}
+
