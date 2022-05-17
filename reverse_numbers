@@ -1,0 +1,14 @@
+public class reverse_program
+{
+   public static void main(String args[])
+   {
+      int num=12345,num1,res=0;
+      while(num!=0)
+      {
+          num1=num%10;
+          res=res*10+num1;
+          num/=10;
+      }
+      System.out.println("The reverse number is: "+res);
+   }
+}
