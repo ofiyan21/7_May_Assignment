@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class swap_numbers
+{
+    
+    public static void main(String args[])
+    {
+       
+        swapping_numbers();
+    }
+    public  static void swapping_numbers()
+    {
+      int num1,num2,num3;
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter two numbers: ");
+      num1=sc.nextInt();
+      num2=sc.nextInt();
+      num3=num1;
+      num1=num2;
+      num2=num3;
+      System.out.println("The values of num1= " +num1+ " The values of num2=" +num2);
+    }
+}
