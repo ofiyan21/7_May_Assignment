@@ -1,0 +1,21 @@
+import java.util.*;
+public class average
+{
+    public static void main(String args[])
+    {
+        int i,n=0,s=0;
+        double avg;
+        System.out.println("Enter the 10 numbers: ");
+       
+        for(i=0;i<10;i++)
+        {
+            Scanner sc=new Scanner(System.in);
+            n=sc.nextInt();
+            
+          s=s+n;  
+        }
+        avg=s/10;
+        System.out.println("the average is: "+avg);
+    }
+    
+}
