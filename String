@@ -1,0 +1,59 @@
+public class String_demo
+{
+    public static void main(String[] args)
+    {
+        String name="Ofiyan";
+        System.out.println(name.length());
+        System.out.println(name.toLowerCase());
+        System.out.println(name.toUpperCase());
+        
+        String s="  Ofiyan    ";
+        System.out.println(s.trim());
+        
+        System.out.println(name.substring(3));
+        System.out.println(name.substring(1,4));
+        System.out.println(name.replace('n','a'));
+        System.out.println(name.startsWith("Of"));
+        System.out.println(name.endsWith("an"));
+        System.out.println(name.charAt(3));
+        System.out.println(name.indexOf("iy"));
+        System.out.println(name.indexOf("ya",2));
+        
+        String s1="Ofiyyan";
+        System.out.println(s1.lastIndexOf("y"));
+        System.out.println(s1.lastIndexOf("y",4));
+        
+        System.out.println(name.equals("Ofiyan"));
+        System.out.println(name.equalsIgnoreCase("OFiYan"));
+        
+        String lname = "Ansari";
+        System.out.println(name.concat(lname));
+        
+    }
+}
+--------------------------------------------------------------------------------------------------------------------------------------
+Output:
+6
+ofiyan
+OFIYAN
+Ofiyan
+yan
+fiy
+Ofiyaa
+true
+true
+y
+2
+3
+4
+4
+true
+true
+OfiyanAnsari
+
+
+
+
+
+
+
