@@ -1,8 +1,0 @@
--import java.util.*;
-class information
-{ 
-public static void main(String[] args)
- { 
-System.out.println("Hello\nOfiyan Ansari \nMobile NO-8104285368 \nStream-Computer Science");
- }
-}
